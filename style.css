@@ -119,8 +119,11 @@ img {
 
 .third-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+    margin-top: 100px;
 }
 
 .quote {
@@ -128,12 +131,23 @@ img {
     font-style: italic;
     color: #1f2937;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 100px;
+    padding: 50px;
     width: 1000px;
 }
 
-.thor {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.name {
+   display: flex;
+   justify-content: flex-end;
+   font-size: 25px;
+   font-weight: bold;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color: #E5E7EB; 
+
 }
+
+.thor {
+   margin-right: 300px;
+   padding: 20px;
+   margin-bottom: 30px;
+}
+
